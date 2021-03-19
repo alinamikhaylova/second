@@ -1,0 +1,138 @@
+@media (max-width:1199.98px) {
+     .block-item{
+        width: 700px;
+        margin: 30px auto;
+     }
+    
+}
+@media (max-width:991.98px) {
+   .tenx img{
+    width: 500px;
+    height: 200px;
+   } 
+   .tenx-border img{
+       display: none;
+       
+   }
+  
+   
+   .main {
+       margin: 0 auto;
+       text-align: center;
+       margin-top: 0;
+       display: flex !important;
+       flex-direction: row !important;
+       align-items: center !important;
+       
+       
+   }
+   .main i{
+       margin: 0;
+       padding: 20px 25px 20px 0;
+   }
+   
+   
+   .navbar{
+       align-items: center;
+   }
+   .ic-menu{
+       display: flex !important;
+       flex-direction: row !important;
+       
+   }
+
+   
+   .nav-item{
+       margin: 0 auto;
+   }
+   
+   .form-inline{
+       margin: 0 auto;
+       display: flex;
+       justify-content: center;
+   }
+   .navbar{
+       display: flex;
+   }
+   .form-inline{
+       display: none;
+   }
+   .block-item{
+       margin: 0 auto;
+       margin-top: 20px;
+       margin-bottom: 20px;
+       width: 700px;
+   }
+}
+@media (max-width:767px) {
+    .tenx img{
+        width: 300px;
+        height: 130px;
+    }
+    .block-item{
+        width: 500px;
+    }
+    .clone{
+        width: 500px;
+    }
+}
+@media (max-width:575.98px) {
+    .clone{
+       width: 300px;
+    }
+    .block-item{
+        width: 300px;
+    }
+    .text p{
+        width: 300px;
+    }
+    .subtitle{
+        width:300px ;
+    }
+    .text{
+        width: 300px;
+    }
+    .play1{
+        display: none;
+    }
+    .play2{
+        display: none;
+    }
+    .mail a{
+        font-size: 20px;
+    }
+    .mail h2{
+        font-size: 22px;
+       
+    }
+    .play-item{
+        width: 300px;
+    }
+    footer ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .mail{
+        width: 300px;
+    }
+    .products h4{
+        width: 300px;
+    }
+    .block{
+        width: 300px;
+    }
+    .flag {
+        margin: 0 auto;
+        width: 300px;
+        margin-bottom: 30px;
+    }
+    .swiper-container{
+        margin: 0 auto;
+        width: 290px;
+    }
+    .strategy h2{
+        margin: 0 auto;
+        width: 300px;
+    }
+    
+}

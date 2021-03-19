@@ -1,0 +1,546 @@
+h1,h2,h3,h4,h5,h6,ul,ol,p{
+    margin: 0;
+    padding: 0;
+}
+input,textarea,select,button{
+    outline: none !important;
+}
+
+ul{
+    list-style: none;
+}
+
+a,
+a:hover{
+    text-decoration: none;
+}
+
+body{
+    background:#181818;
+}
+.navbar{
+    background:#0f0f0f4b !important;
+    align-items:flex-start;
+    padding: 30px;
+   
+}
+.navbar-brand{
+    color: #c26696 !important;
+    font-family: 'Shippori Mincho B1';
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.navbar-brand:hover{
+    transition: 0.6s;
+    transform: rotate(360deg) scale(1.3);
+}
+.tenx{
+    position: absolute;
+    top: 370px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.tenx img{
+    width: 700px;
+    height: 280px;
+    margin: 5px 5px 5px 5px;
+    
+}
+.tenx-border{
+    position: absolute;
+    top: 370px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.tenx-border img{
+    width: 715px;
+    height: 290px;
+    
+}
+.intro{
+    position: relative;
+    width: 100%;
+    height: 800px;
+    
+}
+
+.nav-link{
+    color: rgb(161, 161, 161) !important ;
+    font-family:'Shippori Mincho B1' ;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 5px;
+   
+}
+.nav-link:hover{
+    color: #fff !important;
+}
+.nav-item{
+    padding:6px 25px ;
+}
+.nav-item:hover{
+    transform: rotateY(22deg);
+    transition: 0.1s;
+    border-bottom: 2px solid  rgba(148, 98, 133, 0.377);
+    padding-bottom: 4px;
+    
+}
+.form-inline:active,
+.form-inline:focus{
+    outline: none !important;
+}
+.form-control{
+    background: rgb(2,0,36);
+    background:url('../images/gradient.png');
+    border: none;
+    text-transform: uppercase;
+    outline: none !important; 
+
+}
+:active, :hover, :focus{
+    box-shadow: none !important;
+}
+
+.form-control:active,
+.form-control:focus,
+.form-control:hover{
+    outline: none !important;
+    border: none !important;
+}
+.form-control::placeholder{
+    color: rgba(255, 255, 255, 0.699);
+}
+.btn{
+    color: #fff;
+    border:1px solid rgba(148, 98, 133, 0.377) ;
+    padding: 6px 11px;
+    margin-left: 5px;
+    outline: none !important;
+}
+.btn:hover{
+    background: rgba(255, 47, 168, 0.644) ;
+    border: none;
+    padding:7px 12px ;
+  
+}
+.btn:active,
+.btn:focus{
+    background: none !important;
+
+}
+.main i{
+    color:rgb(161, 161, 161)  ;
+    font-size: 25px;
+    margin-top: 5px;
+    padding: 6px 25px 20px 0;
+}
+.main i:hover{
+    color: #fff;
+    border-bottom: 2px solid  rgba(148, 98, 133, 0.377);
+    padding-bottom: 18px;
+}
+.strategy{
+    position: static;
+    font-family: 'Shippori Mincho B1';
+
+}
+.title{
+    margin: 50px 0;
+   color:  #fff;
+   text-transform: uppercase;
+   font-size: 40px;
+   font-weight: 600;
+}
+header{
+    position: static !important;
+}
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+.subtitle{
+    font-size: 20px !important;
+    text-align: center;
+    color:  papayawhip!important;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: start;
+}
+.text p{
+    color: rgba(255, 255, 255, 0.404);
+    font-size: 13px;
+    margin-bottom: 20px;
+    text-align: start;
+    
+}
+.text{
+    width: 400px;
+}
+
+.strategy .row{
+    margin-top: 55px;
+}
+.text a {
+    color: papayawhip;
+    text-transform: uppercase;
+    font-size: 10px;
+    background: url('../images/gradient.png') no-repeat center center/ cover;
+    padding: 7px 22px;
+    box-shadow: 0px 5px 22px 2px #0f0f0f;
+    
+}
+.label{
+    margin-top: 50px;
+}
+
+.flag{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+}
+.flag img{
+    width: 250px;
+    height: 400px;
+    margin-right: 20px;
+    
+    
+    
+}
+
+.links ul{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30px;
+    
+}
+
+.links a{
+
+    font-size: 24px;
+    color: #ffffff;
+    font-family:'Shippori Mincho B1' ;
+    text-transform: uppercase;
+    font-weight: 600;
+    
+}
+.links a:hover{
+    color: rgb(255, 0, 212);
+}
+.rec{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.first{
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+}
+.first img{
+    width: 300px;
+}
+.rec-item {
+    position: absolute;
+    top: 100px;
+    width: 200px;
+    left: 100px;
+    height: 200px;
+    background: rgba(209, 144, 169, 0.781);
+    text-align: end;
+    padding: 20px 30px 0 0;
+    opacity: 0;
+    
+    
+}
+.rec:hover .rec-item{
+    opacity: 1;
+    transition: 0.1s;
+    height: 425px;
+    width: 300px;
+    top: 0;
+    left: 0;
+}
+.rec-item h4{
+  margin-bottom: 42px;
+}
+.first .third {
+    position: absolute;
+    width: 100px;
+    left: 0px;
+    top: -5px;
+    
+    
+}
+
+
+.text{
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.specialize{
+    padding: 70px 0 ;
+    
+}
+
+
+.block{
+   text-align: center;
+   text-transform: uppercase;
+   font-family:'Shippori Mincho B1' ;
+}
+.block h6{
+    color: rgb(255, 0, 212) ;
+}
+.block h2{
+    color: #fff;
+    font-weight: 600;
+    margin: 20px 0;
+}
+.block h5{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.block a{
+    font-size: 10px;
+    color: #fff;
+    padding: 9px 20px;
+    background: url('../images/gradient.png') no-repeat center center/ cover;
+    box-shadow: 0px 5px 22px 2px #0f0f0f;
+    
+}
+.clone svg{
+    color: #fff;
+
+}
+.group{
+    font-size: 25px !important;
+    color: #fff;
+    margin: 20px 0;
+    text-align: center !important;
+}
+.clone p{
+    color:#fff;
+    font-size: 12px;
+    text-align: start;
+    
+}
+.specialize .col-xl-4{
+    margin-top: 40px;
+}
+.clone i img{
+    width: 40px;
+}
+
+.clone{
+    text-align: center;
+    margin: 40px auto;
+    padding: 10px 30px 20px;
+    opacity: 0.4;
+    
+
+}
+.clone:hover{
+    background: url('../images/gradient.png') no-repeat center center/ cover;
+    transform: scale(1.1);
+    transition: 0.7s;
+    opacity: 1;
+    border-radius: 15px;
+}
+.products h4{
+    text-align: center;
+    color: #fff;
+    font-family: 'Shippori Mincho B1' ;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.block-item img{
+    width: 200px;
+    height: 300px;
+}
+.products .row{
+    margin-top: 40px;
+}
+.block-item{
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 15px;
+    position: relative;
+}
+.block-item:hover{
+    background: rgb(114, 114, 114);
+    transform: scale(1.2);
+    transition: 1s;
+}
+.shop{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+   
+}
+.shop a{
+    background: url('../images/gradient.png') no-repeat center center/ cover;
+    padding: 10px 28px;
+    text-transform: uppercase;
+    color: #fff;
+    opacity: 0;
+}
+.block-item:hover .shop a{
+    opacity: 1;
+}
+.line-item{
+    -webkit-box-shadow: -1px 7px 6px 0px #000000; 
+box-shadow: -1px 7px 6px 0px #000000;
+}
+.mail{
+    margin-top: 70px;
+}
+.mail h2{
+    font-size: 40px;
+    color: #fff;
+    font-family: 'Shippori Mincho B1' ;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.mail a{
+    font-size: 35px;
+    color: #fff;
+    font-family: 'Shippori Mincho B1' ;
+    border-bottom: 3px solid #f8329f46;
+    
+}
+.play{
+    margin-top: 90px;
+}
+.play-item{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+
+}
+.play1{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: #f8329f0e;
+    border-radius: 50%;
+}
+.play2{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background: #f8329f17;
+    left:50%;
+    transform: translateX(-50%);
+    top: 25px;
+    border-radius: 50%;
+}
+.play3{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 300px;
+    top: 50px;
+    background: #f8329f25;
+    border-radius: 50%;
+   
+    
+}
+.play4{
+    position: absolute;
+    top: 75px;
+    width: 250px;
+    height: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #f8329f46;
+    border-radius: 50%;
+}
+.play5{
+    position: absolute;
+    top: 75px;
+    width: 250px;
+    height: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-origin: 50%;
+    padding: 0;
+}
+.play5 img{
+    width: 250px;
+    height: 250px;
+}
+.play5 .fa{
+    font-size: 50px;
+    color: #fff;
+    position: absolute;
+    margin-top: 100px;
+    left: 50%;
+    transform:translateX(-50%)
+}
+footer{
+    margin-top: 50px;
+    padding: 40px 0;
+}
+.line{
+    background: url('../images/gradient.png');
+    height: 2px;
+  
+}
+footer ul{
+    align-items: center;
+}
+footer li a{
+   color: #fff !important;
+   text-transform: uppercase;
+   font-family:'Shippori Mincho B1' ;
+   
+}
+footer li:not(:last-child){
+    margin-right:15px ;
+}
+.log{
+    font-size: 25px;
+    color: #c26696 !important;
+
+}
+footer .row{
+    align-items: center;
+}
+.ic-item{
+    font-size: 30px;
+
+}
+.ic-item li:not(:first-child){
+   margin-left: 15px;
+}
+footer .ic-item li{
+    
+    border-radius: 50px;
+    width: 50px;
+    padding: 0 20px 0 0;
+}
+footer .ic-item li{
+    text-align: center;
+}
+footer .ic-item li:hover{
+    border-right: 2px solid #c26696;
+    
+}
+footer .ic-item li:hover a{
+    color: #c26696 !important;
+}
+
